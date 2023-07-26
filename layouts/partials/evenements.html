@@ -1,0 +1,16 @@
+<h2 id="evenements">Evenements<a href="#top">↑</a></h2>
+
+<section id="flyers">
+    <div class="gallery">
+        {{ range $i, $j := sort (readDir "static/flyers") ".Name" "desc" }}
+        {{ if le $i 2}}
+        <div class="box">
+            <a class="w-auto pr2" href="/flyers/{{ .Name }}"><img src="/flyers/{{ .Name }}"></a>
+        </div>
+        {{ end }}
+        {{ end }}
+    </div>
+</section>
+
+<a href="archives">ARCHIVES</a>
+{{ partial "markdownify.html" (dict "file" "concerts.md")}}

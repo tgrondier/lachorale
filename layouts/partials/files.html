@@ -1,0 +1,7 @@
+{{ $folder := .path}}
+{{ $mime := .mime }}
+<section id="{{ $folder }}">
+	{{ range readDir (print "/static/" $folder) }}
+	<a class="w-auto pr2" href="/{{ $folder }}/{{ .Name }}" type="{{ $mime}}">{{ .Name }}</a><br>
+	{{ end }}
+</section>

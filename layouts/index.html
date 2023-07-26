@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+{{ partial "nav.html" .}}
+
+{{ partial "markdownify.html" (dict "file" "repetitions.md")}}
+
+{{ partial "evenements.html" }}
+{{ partial "partitions.html"}}
+{{ partial "ecouter.html"}}
+{{ partial "nous-ecrire.html"}}
+
+{{ end }}

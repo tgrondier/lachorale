@@ -1,0 +1,23 @@
+{{ define "main" }}
+{{ partial "back_link.html" .}}
+
+<article>
+    <p class="post-meta">
+        <time datetime="{{ .Date }}">
+            {{ .Date | time.Format site.Params.theme_config.date_format }}
+        </time>
+    </p>
+
+    <h1>{{ .Title }}</h1>
+
+    <div class="gallery">
+        {{ range $i, $j := sort (readDir "static/flyers") ".Name" "desc" }}
+        <div class="box">
+            <a class="w-auto pr2" href="/flyers/{{ .Name }}"><img src="/flyers/{{ .Name }}"></a>
+        </div>
+        {{ end }}
+    </div>
+
+    {{ .Content }}
+</article>
+{{ end }}

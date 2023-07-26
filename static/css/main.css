@@ -1,0 +1,13 @@
+
+.gallery {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.box {
+  flex-basis: 32%;
+  width: 100%;
+}
+
+html, body { background: #ffe789; }

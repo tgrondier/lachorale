@@ -1,0 +1,16 @@
+baseURL = "https://lachorale.ch"
+title = "LACHORALE"
+languageCode = "fr"
+DefaultContentLanguage = "fr"
+enableInlineShortcodes = true
+theme = "nostyle"
+
+[params]
+custom_css = ["css/main.css"]
+[params.meta]
+favicon = true
+
+[params.theme_config]
+appearance = "light"
+back_home_text = "ACCUEIL"
+date_format = ""
