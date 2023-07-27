@@ -1,4 +1,4 @@
-baseURL = "https://lachorale.ch"
+# baseURL = "https://lachorale.ch"
 title = "LACHORALE"
 languageCode = "fr"
 DefaultContentLanguage = "fr"
