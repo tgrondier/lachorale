@@ -11,3 +11,7 @@
 }
 
 html, body { background: #ffe789; }
+
+.w {
+  max-width: 720px;
+}
