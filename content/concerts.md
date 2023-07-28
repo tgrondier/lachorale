@@ -1,8 +1,8 @@
 ### Toutes nos dates  
   
-**du 19 au 23 juillet aux Rencontres internationales anti-autoritaires à St-Imier**  
-  
-*****  
+ 
+*****
+23 juillet 2023 à St-Imier, à la rencontre des chorales aux Rencontres Internationales Anti-autoritaire
 26 juin 2023 au Vallon (Lausanne), après le spectacle "Chantons la Commune"  
 17 juin 2023 au Festival du Vallon (Lausanne)  
 14 juin 2023 à la Grève féministe (Lausanne)  
