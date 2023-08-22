@@ -74,6 +74,6 @@ Le texte d'introduction est modifiable depuis le fichier [hugo.toml](hugo.toml)
 
 ## Development
 
-* Installer `Hugo`
+* Installer [`hugo`](https://github.com/gohugoio/hugo)
 * Cloner ce depot
 * Lancer `hugo server` depuis la ligne de commande
