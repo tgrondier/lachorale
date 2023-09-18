@@ -1,8 +1,41 @@
 <header>
-    <h1>{{ $.Site.Params.navTitle }}</h1>
+
+    {{ partial "menu_item.html" (dict "context" . "collection" $.Site.Data.menu.entries) }}
+    <div class="test">
+        <h1>
+            <!-- effet sur le texte https://codepen.io/lbebber/pen/KwGEQv/ -->
+            <p class="grand-titre">{{ $.Site.Params.navTitle }}</p>
+        </h1>
+    </div>
+    <link href="https://fonts.cdnfonts.com/css/uglyqua" rel="stylesheet">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="hidden">
+        <defs>
+            <filter id="squiggly-0">
+                <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="0" />
+                <feDisplacementMap id="displacement" in="SourceGraphic" in2="noise" scale="6" />
+            </filter>
+            <filter id="squiggly-1">
+                <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="1" />
+                <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+            </filter>
+
+            <filter id="squiggly-2">
+                <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="2" />
+                <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+            </filter>
+            <filter id="squiggly-3">
+                <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="3" />
+                <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+            </filter>
+
+            <filter id="squiggly-4">
+                <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="4" />
+                <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+            </filter>
+        </defs>
+    </svg>
 </header>
 {{ .Content }}
-{{ partial "menu_item.html" (dict "context" . "collection" $.Site.Data.menu.entries) }}
 {{- if $.Site.Params.theme_config.show_description -}}
 <p>{{ $.Site.Params.description | markdownify }}</p>
 {{- end -}}
