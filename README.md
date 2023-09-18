@@ -33,15 +33,34 @@ Les autres alternatives:
 
 Le systeme actuel n'offre pas de solution neutre. Github a l'avantage d'etre la platforme de choix pour les projets open source modernes et d'offrir des outils collaboratifs adaptes aux utilisateurs non techniques.
 
-
 ### Hugo
 
 [Hugo](https://github.com/gohugoio/hugo) est un generateur de site web statiques. Il est leger et permet de decoupler facilement le contenu du site de sa forme. Un site web statique est un site web qui mit a disposition sous forme de fichiers qui ne changent pas. Contrairement a l'application PHP actuelle qui regenere la page pour chaque requete, ici elle n'est generee qu'une seule fois a chaque mise a jour.  
 Hugo a l'avante d'avoir un tres large exosysteme d'hebergeurs gratuits, qui generent le site directement depuis le code source Git.
 
-### lachorale.tschuss.li
+### Deployement
 
-Actuellement, le site internet <https://lachorale.tschuss.li> est genere via <https://render.com>. Ce choix a ete fait a cause de la video La Vie S'Ecoule qui est beaucoup trop grande pour la plupart des hebergeurs. La plateforme regenere le site a chaque mise a jour du depot Git
+#### Deploymenent pour utilisateurs non techniques
+
+Au debut du projet, le site internet <https://lachorale.tschuss.li> etait heberge via <https://render.com>, un des nombreux hebergeurs gratuits pour sites hugo.
+
+#### Deployement pour utilisateurs techniques
+
+Actuellement, le site internet <https://lachorale.tschuss.li> est genere via des githubs actions qui telechargent les fichiers generes dans un bucket s3; l'acces au bucket est mis derrier un proxy nginx avec la configuration suivante:
+
+```nginx
+
+    server {
+        server_name lachorale.tschuss.li;
+        index index.html;
+        location / {
+            rewrite ^(.*)/$ $1/index.html break;
+            rewrite ^(.*/[^./]+)$ $1/index.html break;
+            proxy_pass <url du bucket> ;
+        }
+    }
+
+```
 
 ### Mettre a jour le site
 
