@@ -1,0 +1,11 @@
+<div class="menu">
+    {{- range $item := .collection -}}
+        <span class="l-menu">
+            {{- with $item.url -}}
+                <a href="{{ $item.url | relURL }}">{{ safeHTML $item.title }}</a>
+            {{- end -}}
+        </span>
+    {{- end }}
+    <span><a href="https://github.com/tgrondier/lachorale">Code Source</a></span>
+
+</div>
