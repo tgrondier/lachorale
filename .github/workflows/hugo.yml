@@ -4,34 +4,75 @@ name: Deployer le site
 on:
   push:
     branches:
-      - main  # Set a branch to deploy
+    - main # Set a branch to deploy
   pull_request:
 
 jobs:
   deploy:
     runs-on: ubuntu-22.04
+    if: github.ref == 'refs/heads/main'
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - uses: actions/checkout@v3
-        with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+    - uses: actions/checkout@v3
+      with:
+        submodules: true # Fetch Hugo themes (true OR recursive)
+        fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: '0.114.0'
-          extended: true
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.114.0'
+        extended: true
 
-      - name: Build
-        run: hugo --minify
-      
-      - uses: shallwefootball/s3-upload-action@master
-        with:
-          aws_key_id: ${{ secrets.S3_KEY }}
-          aws_secret_access_key: ${{ secrets.S3_SECRET}}
-          aws_bucket: lachorale
-          source_dir: './public'
-          destination_dir: ''
-          endpoint: https://sos-ch-gva-2.exo.io
+    - name: Build
+      run: hugo --minify
+
+    - uses: shallwefootball/s3-upload-action@master
+      with:
+        aws_key_id: ${{ secrets.S3_KEY }}
+        aws_secret_access_key: ${{ secrets.S3_SECRET}}
+        aws_bucket: lachorale
+        source_dir: './public'
+        destination_dir: ''
+        endpoint: https://sos-ch-gva-2.exo.io
+
+
+  preview:
+    runs-on: ubuntu-22.04
+    if: github.event_name == 'pull_request'
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        submodules: true # Fetch Hugo themes (true OR recursive)
+        fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.114.0'
+        extended: true
+
+    - name: Build
+      run: hugo --minify
+
+    - uses: shallwefootball/s3-upload-action@master
+      with:
+        aws_key_id: ${{ secrets.S3_KEY }}
+        aws_secret_access_key: ${{ secrets.S3_SECRET}}
+        aws_bucket: lachorale
+        source_dir: './public'
+        destination_dir: '${{ github.sha }}'
+        endpoint: https://sos-ch-gva-2.exo.io
+
+    - uses: actions/github-script@v6
+      with:
+        script: |
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: 'Apercu: https://lachorale.tschuss.li/${{ github.sha }}/'
+          })
