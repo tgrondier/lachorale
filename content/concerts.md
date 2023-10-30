@@ -1,7 +1,11 @@
 ### Toutes nos dates  
-  
- 
+
+**Mercredi 13 décembre à l'espace autogéré (Lausanne)**
+
 *****
+21 octobre au Cylure (Lausanne), à la soirée de soutien à la Grève féministe  
+14 octobre à la BAZ (Ste-Croix), pour le vernissage de l'expo "Napo Exp(l)ose"  
+14 octobre 2023 au Festival de l'Eau (Vevey)  
 23 juillet 2023 sur la place du marché (St-Imier), à la rencontre des chorales aux Rencontres Internationales Anti-autoritaires  
 26 juin 2023 au Vallon (Lausanne), après le spectacle "Chantons la Commune"  
 17 juin 2023 au Festival du Vallon (Lausanne)  
