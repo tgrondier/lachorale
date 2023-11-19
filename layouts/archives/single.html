@@ -13,7 +13,7 @@
     <div class="gallery">
         {{ range $i, $j := sort (readDir "static/flyers") ".Name" "desc" }}
         <div class="box">
-            <a class="w-auto pr2" href="/flyers/{{ .Name }}"><img src="/flyers/{{ .Name }}"></a>
+            <a class="w-auto pr2" href="flyers/{{ .Name }}"><img src="flyers/{{ .Name }}"></a>
         </div>
         {{ end }}
     </div>
