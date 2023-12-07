@@ -1,3 +1,2 @@
 **Prochaines dates de répétitions (lundi 19h à l'espace autogéré):**  
-**– Reprise après les vacances – 21 août, 4 septembre, 18 septembre, 2 octobre, 16 octobre, 30 octobre, 13 novembre, 27 novembre, 11 décembre**
-
+**11 décembre // 2024: 8 janvier, 22 janvier, 5 février, 19 février, 4 mars, 18 mars, 1er avril, 15 avril, 29 avril, 14 mai, 27 mai, 10 juin, 24 juin.**
