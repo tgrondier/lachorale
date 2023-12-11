@@ -1,6 +1,6 @@
 ### Toutes nos dates  
 
-**Mercredi 13 décembre à l'espace autogéré (Lausanne)**
+**Mercredi 13 décembre à l'espace autogéré (Lausanne): concert des 5 ans de la chorale! Bouffe dès 18h30, concert à 20h30, open-mic à 22h30**
 
 *****
 21 octobre au Cylure (Lausanne), à la soirée de soutien à la Grève féministe  
