@@ -1,10 +1,12 @@
 ### Toutes nos dates  
 
-**Mercredi 13 décembre à l'espace autogéré (Lausanne): concert des 5 ans de la chorale! Bouffe dès 18h30, concert à 20h30, open-mic à 22h30**
+**Vendredi 19 janvier au Tojo / Reitschule (Berne) pour le festival Tour de Lorraine**
 
 *****
-21 octobre au Cylure (Lausanne), à la soirée de soutien à la Grève féministe  
-14 octobre à la BAZ (Ste-Croix), pour le vernissage de l'expo "Napo Exp(l)ose"  
+Mardi 26 décembre au Pavillon bleu (Genève), pour la rencontre de chorale des Sancullotides  
+13 décembre à l'espace autogéré (Lausanne), pour les 5 ans de la chorale et la Sainte-ACAB  
+25 novembre à la Place de la Palud (Lausanne), pour la journée de lutte contre les violences sexistes et sexuelles  
+21 octobre au Cylure (Lausanne), à la soirée de soutien à la Grève féministe14 octobre à la BAZ (Ste-Croix), pour le vernissage de l'expo "Napo Exp(l)ose"  
 14 octobre 2023 au Festival de l'Eau (Vevey)  
 23 juillet 2023 sur la place du marché (St-Imier), à la rencontre des chorales aux Rencontres Internationales Anti-autoritaires  
 26 juin 2023 au Vallon (Lausanne), après le spectacle "Chantons la Commune"  
