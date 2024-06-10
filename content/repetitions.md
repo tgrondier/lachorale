@@ -1,2 +1,18 @@
-**Prochaines dates de répétitions (lundi 19h à l'espace autogéré):**  
-**11 décembre // 2024: 8 janvier, 22 janvier, 5 février, 19 février, 4 mars, 18 mars, 1er avril, 15 avril, 29 avril, 14 mai, 27 mai, 10 juin, 24 juin.**
+Depuis le printemps 2018, la chorale anarchiste chante un lundi sur deux
+à [l’espace autogéré](https://espaceautogere.squat.net) (rue César-Roux
+30, Lausanne) et lors de divers événements et manifestations à Lausanne
+et ailleurs (plus d’info
+[ici](https://lachorale.ch/site/flyers/201912_Article_Moins.jpg)). Il
+n’est pas trop tard pour nous rejoindre, bienvenue à tout le monde !  
+  
+**⚠ La répétition du 10 juin aura lieu exceptionellement a la
+[Pharmacie](https://www.instagram.com/_lapharmacie/) (Rue du Valentin 16
+a Lausanne) ⚠**  
+  
+**Prochaines dates de répétitions (lundi 19h à l'espace autogéré):  
+10 juin, 24 juin.**  
+  
+  
+  
+  
+  
