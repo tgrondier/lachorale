@@ -19,4 +19,4 @@ favicon = true
 appearance = "light"
 back_home_text = "ACCUEIL"
 date_format = ""
-show_description = true
+# show_description = true
