@@ -1,15 +1,14 @@
 ### Toutes nos dates
 
-**Lundi 10 juin 2024 a la Pharmacie (Lausanne)**  
-**Jeudi 13 juin 2024 au lancement de la Grève féministe (Lausanne)**  
-**Samedi 29 juin 2024 au Jardin aux 1000 mains (Lausanne) pour la Fête
+**Samedi 24 août 2024 au Jardin aux 1000 mains (Lausanne) pour la Fête
 de l'été**  
-**Dimanche 14 juillet 2024 pour le festival Waïlamawaï à la Grenette
-(Sion)**  
 **Samedi 7 septembre 2024 au Bois-du-Nant Festival (Eysins)**  
   
 *****  
-6 Avril 2024 à la manifestation de la Coalition Stop Pillage
+14 juillet 2024 pour le festival Waïlamawaï à la Grenette (Sion)  
+13 juin 2024 au lancement de la grève féministe (Lausanne)  
+10 juin 2024 à la Pharmacie (Lausanne)  
+6 avril 2024 à la manifestation de la Coalition Stop Pillage
 (Lausanne)  
 8 mars 2024 à la manifestation féministe (Lausanne)  
 19 janvier 2024 au Tojo / Reitschule (Berne), pour le festival Tour de
@@ -118,4 +117,3 @@ féministe / Grève des femmes*
 17 septembre 2018 à la fête des 30 ans de l'ALJF (Morges)  
 24 juin 2018 au CIRA – Centre international de recherches sur
 l’anarchisme (Lausanne)  
-  
