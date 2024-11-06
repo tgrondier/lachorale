@@ -1,10 +1,11 @@
 ### Toutes nos dates
 
-**Samedi 24 août 2024 au Jardin aux 1000 mains (Lausanne) pour la Fête
-de l'été**  
-**Samedi 7 septembre 2024 au Bois-du-Nant Festival (Eysins)**  
+  
   
 *****  
+16 septembre 2024 aux Dissidentes (Lausanne)  
+7 septembre 2024 au Bois-du-Nant Festival (Eysins)  
+24 août 2024 au Jardin aux 1000 mains (Lausanne) pour la Fête de l'été  
 14 juillet 2024 pour le festival Waïlamawaï à la Grenette (Sion)  
 13 juin 2024 au lancement de la grève féministe (Lausanne)  
 10 juin 2024 à la Pharmacie (Lausanne)  
@@ -117,3 +118,4 @@ féministe / Grève des femmes*
 17 septembre 2018 à la fête des 30 ans de l'ALJF (Morges)  
 24 juin 2018 au CIRA – Centre international de recherches sur
 l’anarchisme (Lausanne)  
+  
