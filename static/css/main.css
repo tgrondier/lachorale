@@ -10,7 +10,8 @@
 }
 
 html,
-body {
+body[a="light"],
+main {
   background: #ffe789;
 }
 
@@ -93,7 +94,7 @@ body {
 .l-menu a {
   background-color: #000000;
   font-family: "uglyqua";
-  color: #ffffff;
+  color: #ffffff !important;
   font-size: 1rem;
   padding: 10px;
   margin-right: 10px;
@@ -102,18 +103,14 @@ body {
 
 }
 
-/* .l-menu a:hover {
-  background-color: #000000;
-  font-family: "uglyqua";
-  color: #ffffff;
-  font-size: 1rem;
-  padding: 10px;
-  margin-right:10px;
-  text-decoration: none;
-  font-style: italic;    
-  border-radius: 5px;
-} */
-
 .menu {
   margin-top: 35px;
+}
+
+body[a="light"] :target {
+  background: none;
+}
+
+a {
+  text-decoration: underline;
 }
