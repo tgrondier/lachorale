@@ -1,10 +1,13 @@
 ### Toutes nos dates
 
   
-  
-*****  
-16 septembre 2024 aux Dissidentes (Lausanne)  
-7 septembre 2024 au Bois-du-Nant Festival (Eysins)  
+**1er février 2025 au Tojo / Reitschule (Berne), pour le festival Tour de Lorraine**
+
+
+*****
+26 décembre 2024 à la Chaux-de-Fonds, pour les Sancullotides
+13 décembre 2024 à l'espace autogéré (Lausanne) pour la Sainte-ACAB
+16 septembre 2024 aux Dissidentes (Lausanne)7 septembre 2024 au Bois-du-Nant Festival (Eysins)  
 24 août 2024 au Jardin aux 1000 mains (Lausanne) pour la Fête de l'été  
 14 juillet 2024 pour le festival Waïlamawaï à la Grenette (Sion)  
 13 juin 2024 au lancement de la grève féministe (Lausanne)  
